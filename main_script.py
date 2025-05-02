@@ -32,6 +32,7 @@ while True: # Runs infinitely until the program is stopped OR the mouse is bough
 
     # Start the timer after which the mouse simulation starts again
     timer = 10 # Adjust timer in seconds
+    print(f"Timer set for {timer} seconds")
     for sec in range(timer):
         print(f"Time in sec: {sec + 1}")
         time.sleep(1) # Simulates each second
