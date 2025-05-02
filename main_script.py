@@ -3,6 +3,7 @@ import time
 import subprocess
 import os
 
+print("Welcome to Microsoft Teams Automation")
 
 # Step 1: Taking co-ordinates of Teams application
 screen_width, screen_height = pyautogui.size() # Get the screen resolution from PyAutoGUI library
